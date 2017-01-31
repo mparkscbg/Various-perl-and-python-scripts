@@ -4,6 +4,7 @@
 # shuf $file | perl start_end_bias.pl - | head -n # < outfile
 # or
 # shuf $file | perl start_end_bias.pl - | head -n # | awk 'BEGIN {OFS="\t"}  {print $1,substr($2,2,30),$3,substr($4,2,30)}' > outfile
+#Author: Matthew Parks, 2016
 
 use strict;
 
