@@ -7,8 +7,10 @@
 #
 #python windows.part_3.py fiG_values.txt fig_values.txt > chi2_values.txt
 #
-#NOTE: fiG, fig and chi2 values/calculations are as defined in Becq J, Churlaud C, Deschavanne P. 2010. A benchmark of parametric
+#NOTE 1: fiG, fig and chi2 values/calculations are as defined in Becq J, Churlaud C, Deschavanne P. 2010. A benchmark of parametric
 #methods for horizontal transfers detection. PLoSONE 5(4):e9989.
+#NOTE 2: this script is pretty fast, in part because the input (i.e., output from windows.part_2.py is only typically in the thousands
+#to hundreds of thousands of lines, depending on genome size and window/step size used.
 
 
 
