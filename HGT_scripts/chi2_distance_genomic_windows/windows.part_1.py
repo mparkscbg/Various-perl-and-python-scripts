@@ -2,8 +2,10 @@
 #this script calculates the tetranucleotide proportions for all sequences in a fasta file, and outputs them as a comma-delimited list where the first element is
 #'fiG_list' and the subsequent elements are tetranucleotide proportions representative of all sequences in the fasta file
 #
-#NOTE: fiG values/calculations are as defined in Becq J, Churlaud C, Deschavanne P. 2010. A benchmark of parametric
+#NOTE 1: fiG values/calculations are as defined in Becq J, Churlaud C, Deschavanne P. 2010. A benchmark of parametric
 #methods for horizontal transfers detection. PLoSONE 5(4):e9989.
+#NOTE 2: this script is pretty fast and runs on a single processor. I have used it on a ca. 90Mbp genome assembly with a run time of
+#an hour or two.
 #
 #syntax is:
 #
