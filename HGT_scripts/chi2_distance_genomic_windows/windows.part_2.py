@@ -11,7 +11,9 @@
 #their sequence.
 #
 #NOTE 2: fig values/calculations are as defined in Becq J, Churlaud C, Deschavanne P. 2010. A benchmark of parametric methods for horizontal transfers detection. PLoSONE 5(4):e9989.
-
+#
+#NOTE 3: this script is definitely slower than windows.part_1.py. I have run this on a ca. 90Mbp genome on a single processor with a run
+#time of a day or so.
 
 from __future__ import division
 
