@@ -11,7 +11,8 @@
 
 #Output is two tab-separated columns - the name of each coding sequence (from its fasta header) and
 #its K-L distance. Ouput K-L values can be plotted separately for outlier analysis.
-
+#
+#NOTE: this script works pretty fast, it typically gets through ca. 20,000 transcripts in around 10-20 minutes on a single processor.
 
 
 
